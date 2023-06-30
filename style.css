@@ -1,0 +1,142 @@
+@font-Face {
+  font-family: 'Izvestiya';
+  src: url("/fonts/Izvestija.ttf");
+}
+
+@font-Face {
+  font-family: 'Dva';
+  src: url("/fonts/DvaprobelaC.ttf");
+}
+
+@font-Face {
+  font-family: 'Typer';
+  src: url("/fonts/a_OldTyperNr.ttf");
+}
+
+.main__container{
+  /* background: url("./bumaga.jpg") no-repeat top center; */
+ background-image: url("./bumaga.jpg");
+ /* background: url("./bumaga.jpg") no-repeat center center fixed ; */
+ /* background-size: contain; */
+ /* -webkit-background-size: contain; */
+
+ background-position: center;
+    background-size: cover;
+ /* background-size: cover; */
+ background-repeat: no-repeat;
+ /* object-fit: cover; */
+ font-family: "Izvesiya";
+ width: 1200px;
+ height: 900px;
+ /* height: 1000px; */
+ /* overflow-x: scroll; */
+ /* padding-bottom: 100px; */
+ overflow: hidden;
+ position:relative;
+ margin: auto;
+ 
+}
+
+.header {
+  /* align-self: center; */
+  position: relative;
+  /* margin: 50px 0 30px 0; */
+  padding: 50px 0 20px 0;
+  text-align: center;
+  font-family: "Izvestiya";
+  font-size: 75px;
+  text-transform: uppercase ;
+  letter-spacing: 20px;
+  /* margin-bottom: 20px; */
+}
+
+/* .data__container {
+position: relative;
+width: 1100px;
+height: 100%;
+margin: auto;
+margin-bottom: 100px;
+overflow-y: hidden;
+padding-bottom: 150px;
+overflow: hidden;
+background-color: aqua;
+display: flex;
+justify-content: space-around;
+align-items: center;
+} */
+
+.data__header {
+  font-family: "Izvestiya";
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+
+.data__common::-webkit-scrollbar {
+  display:none;
+}
+
+
+/* .container__sell{
+  border: 3px solid black;
+  height: 700px;
+  width: 500px;
+  overflow-y: scroll;
+}
+
+.container__sell::-webkit-scrollbar {
+  display:none;
+} */
+
+.data__text {
+  margin:0 0 0 40px;
+  cursor: pointer;
+  font-family: "Typer";
+  font-weight: 1000;
+  font-size: 15px;
+  /* display: inline-block; */
+  /* text-align: left; */
+  /* letter-spacing: 1px; */
+}
+
+summary::marker {
+  content: "";
+}
+
+.data__folder {
+  cursor:pointer;
+  font-family: "Typer";
+  font-weight: 1000;
+  font-size: 18px;
+  margin: 10px 0 0px 10px
+}
+
+.data__common{
+  width: 1000px;
+  height: 570px;
+  display:flex;
+  position: relative;
+  /* align-items: center; */
+  justify-content: space-around;
+  margin: auto;
+  /* padding-bottom: 150px; */
+  overflow:hidden;
+  /* border: 3px solid black; */
+  overflow-y: scroll;
+  padding: 15px;
+  /* background-color: blue; */
+}
+
+.data__common-one{
+/* border-right: 4px solid black; */
+/* padding-right: 20px; */
+}
+
+.cloumn{
+  width: 3px;
+  height: 1300px;
+  background-color: black;
+}
