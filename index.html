@@ -4,10 +4,369 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-<p>привет</p>
-  <script src="./script.js"> </script>
-</form>
+<body >
+  <div class="main__container">
+      <!-- <form method="POST" name="authorization" action="http://ya.ru">
+        Логин: <input type="text" name="username"><br>
+        Пароль: <input type="password" name="user_password"><br>
+        <input type="submit" value="Войти">
+      </form> -->
+      <div class="header">Доска объявлений</div>
+      <!-- <div class="data__container"> -->
+          <!-- <div class="container__buy"> -->
+            <h2 class="data__header">Выберите категорию</h2>
+            <div class="data__common">
+              <div class="cloumn"></div>
+              <div class="data__common-one">
+            <details open>
+              <summary class="data__folder">Компьютерная техника</summary>
+               <p class="data__text">Мониторы</p>
+               <p class="data__text">Системные блоки</p>
+               <p class="data__text">Процессоры</p>
+               <p class="data__text">Винчестеры</p>
+               <p class="data__text">Видеокарты</p>
+               <p class="data__text">Материнские платы</p>
+              </details>
+
+              <details open>
+                <summary class="data__folder">Бытовая техника</summary>
+                 <p class="data__text">Телевизоры</p>
+                 <p class="data__text">Приставки</p>
+                 <p class="data__text">Музыкальные центры</p>
+                 <p class="data__text">Радиоприемники</p>
+                 <p class="data__text">Видеомагнитофоны</p>
+                 <p class="data__text">Другое</p>
+                </details>
+
+              <details open>
+              <summary class="data__folder">Транспорт</summary>
+               <p class="data__text">Легковые авто</p>
+               <p class="data__text">Грузовые авто</p>
+               <p class="data__text">Мотоциклы</p>
+               <p class="data__text">Прицепы</p>
+               <p class="data__text">Велосипеды</p>
+               <p class="data__text">Самокаты</p>
+              
+              </details>
+              <details open>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+
+             <details open>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+
+             
+             <details open>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+             
+             <details open>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+             
+             <details open>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+             <details open>
+              <summary class="data__folder">Компьютерная техника</summary>
+               <p class="data__text">Мониторы</p>
+               <p class="data__text">Системные блоки</p>
+               <p class="data__text">Процессоры</p>
+               <p class="data__text">Винчестеры</p>
+               <p class="data__text">Видеокарты</p>
+               <p class="data__text">Материнские платы</p>
+              </details>
+            </div>
+              <div class="cloumn"></div>
+            <div class="data__common-one">
+              <details open>
+                <summary class="data__folder">Компьютерная техника</summary>
+                 <p class="data__text">Мониторы</p>
+                 <p class="data__text">Системные блоки</p>
+                 <p class="data__text">Процессоры</p>
+                 <p class="data__text">Винчестеры</p>
+                 <p class="data__text">Видеокарты</p>
+                 <p class="data__text">Материнские платы</p>
+                </details>
+  
+                <details>
+                  <summary class="data__folder">Бытовая техника</summary>
+                   <p class="data__text">Телевизоры</p>
+                   <p class="data__text">Приставки</p>
+                   <p class="data__text">Музыкальные центры</p>
+                   <p class="data__text">Радиоприемники</p>
+                   <p class="data__text">Видеомагнитофоны</p>
+                   <p class="data__text">Другое</p>
+                  </details>
+  
+                <details>
+                <summary class="data__folder">Транспорт</summary>
+                 <p class="data__text">Легковые авто</p>
+                 <p class="data__text">Грузовые авто</p>
+                 <p class="data__text">Мотоциклы</p>
+                 <p class="data__text">Прицепы</p>
+                 <p class="data__text">Велосипеды</p>
+                 <p class="data__text">Самокаты</p>
+                
+                </details>
+                <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+  
+               <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+  
+               
+               <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+               
+               <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+               
+               <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+              </div>
+
+          
+          
+          
+              <div class="cloumn"></div>
+              <div class="data__common-one">
+            <details>
+              <summary class="data__folder">Компьютерная техника</summary>
+               <p class="data__text">Мониторы</p>
+               <p class="data__text">Системные блоки</p>
+               <p class="data__text">Процессоры</p>
+               <p class="data__text">Винчестеры</p>
+               <p class="data__text">Видеокарты</p>
+               <p class="data__text">Материнские платы</p>
+              </details>
+
+              <details>
+                <summary class="data__folder">Бытовая техника</summary>
+                 <p class="data__text">Телевизоры</p>
+                 <p class="data__text">Приставки</p>
+                 <p class="data__text">Музыкальные центры</p>
+                 <p class="data__text">Радиоприемники</p>
+                 <p class="data__text">Видеомагнитофоны</p>
+                 <p class="data__text">Другое</p>
+                </details>
+
+              <details>
+              <summary class="data__folder">Транспорт</summary>
+               <p class="data__text">Легковые авто</p>
+               <p class="data__text">Грузовые авто</p>
+               <p class="data__text">Мотоциклы</p>
+               <p class="data__text">Прицепы</p>
+               <p class="data__text">Велосипеды</p>
+               <p class="data__text">Самокаты</p>
+              
+              </details>
+              <details>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+
+             <details>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+
+             
+             <details>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+             
+             <details>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+             
+             <details>
+              <summary class="data__folder">Домашние животные</summary>
+              <p class="data__text">Собаки</p>
+              <p class="data__text">Кошки</p>
+              <p class="data__text">Птицы</p>
+              <p class="data__text">Рыбки</p>
+              <p class="data__text">Другие</p>
+              <p class="data__text">Товары</p>
+             </details>
+            </div>
+              <div class="cloumn"></div>
+            <div class="data__common-one">
+              <details>
+                <summary class="data__folder">Компьютерная техника</summary>
+                 <p class="data__text">Мониторы</p>
+                 <p class="data__text">Системные блоки</p>
+                 <p class="data__text">Процессоры</p>
+                 <p class="data__text">Винчестеры</p>
+                 <p class="data__text">Видеокарты</p>
+                 <p class="data__text">Материнские платы</p>
+                </details>
+  
+                <details>
+                  <summary class="data__folder">Бытовая техника</summary>
+                   <p class="data__text">Телевизоры</p>
+                   <p class="data__text">Приставки</p>
+                   <p class="data__text">Музыкальные центры</p>
+                   <p class="data__text">Радиоприемники</p>
+                   <p class="data__text">Видеомагнитофоны</p>
+                   <p class="data__text">Другое</p>
+                  </details>
+  
+                <details>
+                <summary class="data__folder">Транспорт</summary>
+                 <p class="data__text">Легковые авто</p>
+                 <p class="data__text">Грузовые авто</p>
+                 <p class="data__text">Мотоциклы</p>
+                 <p class="data__text">Прицепы</p>
+                 <p class="data__text">Велосипеды</p>
+                 <p class="data__text">Самокаты</p>
+                
+                </details>
+                <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+  
+               <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+  
+               
+               <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+               
+               <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+               
+               <details>
+                <summary class="data__folder">Домашние животные</summary>
+                <p class="data__text">Собаки</p>
+                <p class="data__text">Кошки</p>
+                <p class="data__text">Птицы</p>
+                <p class="data__text">Рыбки</p>
+                <p class="data__text">Другие</p>
+                <p class="data__text">Товары</p>
+               </details>
+              </div>
+              <div class="cloumn"></div>
+          </div>
+      </div>
+  </div>
+
 </body>
 </html>
